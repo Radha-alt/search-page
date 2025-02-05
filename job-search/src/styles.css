@@ -1,0 +1,97 @@
+
+ /* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    width: 100%;
+  }
+  
+  /* Logo */
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    background-color: #333; /* Dark Gray */
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #00bfa6; /* Teal */
+  }
+  
+  /* Vertical Separators */
+  .navbar span {
+    color: #00bfa6;
+    font-weight: bold;
+  }
+  
+  /* Mobile Responsive */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .navbar {
+      margin-top: 10px;
+      padding: 8px;
+    }
+  }
+  
+  
+  /* Filter Container - Centers and adds spacing */
+.filter-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Adds space between dropdowns and button */
+    margin-bottom: 20px;
+  }
+  
+  /* Dropdown Styling */
+  .filter-dropdown {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  /* Search Button */
+  .search-button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #004d40;
+  }
+  
