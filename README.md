@@ -1,7 +1,16 @@
 # search-page
 This is a React-based job search application that allows users to search for jobs based on salary and location. The project is built using React.js, Tailwind CSS, and Axios for API calls.
+## Purpose
+This project was built to practice building a small, real-world React application with dynamic filtering, API integration, and a responsive UI. It focuses on clean component structure and state management for search-based interfaces.
+
 
 Features
+## Tech Stack
+- React (functional components and hooks)
+- Tailwind CSS for responsive styling
+- Axios for API requests
+- JavaScript (ES6+)
+
 ✔ Search Jobs based on Salary & Location
 ✔ Responsive UI with a clean layout
 ✔ Reusable Components for Filters & Results
@@ -45,10 +54,14 @@ cd job-search
 npm install
 
 🚀 Running the Project
-Start the Development Server
+Start the development server:
 npm start
-The app will be available at http://localhost:3000.
+Open http://localhost:3000 in your browser to view the app.
 
 🧪 Running Tests
 To run Jest tests:
 npm test
+
+## Learnings & Improvements
+Through this project, I gained hands-on experience in structuring React components, managing state for filters, and integrating APIs using Axios.  
+If I were to continue developing this project, I would add pagination, better error handling, and unit tests to improve performance and reliability.
